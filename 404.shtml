@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head><meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Manoela Moyses | 404 </title>
 
@@ -196,7 +197,7 @@
 
         <div class="error-message">
           <p>A página que você está procurando não foi encontrada!</p>
-          <a class="error-link" href="https://manoelamoyses.net/">Voltar</a>
+          <a class="error-link" href="/">Voltar</a>
         </div>
       </div>
     </div>
