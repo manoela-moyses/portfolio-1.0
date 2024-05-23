@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head><meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manoela Moyses | 404 </title>
+
+  <meta name="description"
+    content="Site Portfólio para apresentação do trabalho de Manoela Moyses, Desenvolvedora Web (Web Designer). Página de Erro.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Manoela Moyses | 404">
+  <meta property="og:description"
+    content="Site Portfólio para apresentação do trabalho de Manoela Moyses, Desenvolvedora Web (Web Designer). Página de Erro.">
+  <meta property="og:url" content="https://manoelamoyses.vercel.app/404.html">
+  <meta property="og:image" content="https://manoelamoyses.vercel.app/assets/ManoelaM.svg">
+
+  <link rel="shortcut icon" href="../assets/Icone.svg" type="image/svg-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/phosphor-icons"></script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      font-size: 62.5%;
+    }
+
+    body {
+      font-size: 1.8rem;
+    }
+
+    .container {
+      min-height: 100vh;
+      background-color: #1a1a29;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      line-height: 3.2rem;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .error-section {
+      display: flex;
+      padding: 3.2rem;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      animation: fadein 1s 0.5s backwards;
+      max-width: 51.8rem;
+      margin: 0 auto;
+    }
+
+    .container-error {
+      background-color: white;
+      color: #7562e0;
+      text-align: center;
+      border-radius: 0.8rem;
+    }
+
+    .error,
+    .error-message {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 3.2rem;
+    }
+
+    .error {
+      background-color: #da1381;
+      border-radius: 0.8rem 0.8rem 0 0;
+    }
+
+    .error-message {
+      border-radius: 0 0 0.8rem 0.8rem;
+    }
+
+    .error i {
+      font-size: 12.5rem;
+      color: white;
+      padding-bottom: 1.6rem;
+    }
+
+    .error p {
+      font-size: 3.2rem;
+      font-weight: 600;
+      color: white;
+    }
+
+    .error-message p {
+      font-size: 2.4rem;
+      line-height: 3.6rem;
+      font-weight: 600;
+      margin-bottom: 3.2rem;
+    }
+
+    .error-message p {
+      color: #da1381;
+    }
+
+    .error-link {
+      padding: 1.2rem 6.4rem;
+      border: none;
+      height: 5.3rem;
+      border-radius: 0.8rem;
+      background: linear-gradient(270deg, #da1381 0%, #7562e0 100%);
+      transition: all 0.4s ease-in-out;
+      text-decoration: none;
+      color: white;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-size: 2.4rem;
+    }
+
+    .error-link:hover {
+      transform: scale(0.9);
+    }
+
+    @keyframes fadein {
+      0% {
+        opacity: 0;
+        transform: scale(0);
+      }
+
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    @media (max-width: 425px) {
+
+      .error p {
+        font-size: 2.4rem;
+      }
+
+      .error i {
+        font-size: 10rem;
+      }
+
+      .error-message p {
+        font-size: 1.6rem;
+        line-height: 3rem;
+        margin-bottom: 1.6rem;
+      }
+
+      .error-message a {
+        font-size: 1.8rem;
+      }
+    }
+
+    @media (max-width: 320px) {
+
+      .error p {
+        font-size: 2rem;
+      }
+
+      .error-message {
+        padding: 3.2rem 1.8rem;
+      }
+
+      .error-message p {
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+      }
+
+      .error-link {
+        padding: 1.2rem 3.2rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="error-section">
+      <div class="container-error">
+        <div class="error">
+          <i class="ph-smiley-x-eyes"></i>
+          <p>IXI... DEU RUIM!</p>
+        </div>
+
+        <div class="error-message">
+          <p>A página que você está procurando não foi encontrada!</p>
+          <a class="error-link" href="https://manoelamoyses.net/">Voltar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XWMGJ8EE24"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-XWMGJ8EE24');
+  </script>
+</body>
+
+
+</html>
