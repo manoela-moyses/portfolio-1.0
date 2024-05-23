@@ -197,7 +197,7 @@
 
         <div class="error-message">
           <p>A página que você está procurando não foi encontrada!</p>
-          <a class="error-link" href="/">Voltar</a>
+          <a class="error-link" href="https://manoelamoyses.vercel.app/">Voltar</a>
         </div>
       </div>
     </div>
