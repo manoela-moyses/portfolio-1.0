@@ -41,15 +41,6 @@ if (contactSection) {
 let projects = {
   data: [
     {
-      projectName: "Portfólio 1.0",
-      category: "Coding",
-      description: "Versão 1.0 do site portfólio para apresentação dos meus projetos",
-      tools: "HTML, CSS e JavaScript",
-      image: "../../../assets/meu-portfolio.png",
-      siteLink: "https://manoelamoyses.vercel.app/",
-      githubLink: "https://github.com/manoela-moyses/meu-portfolio"
-    },
-    {
       projectName: "Odonto Clinic",
       category: "Coding",
       description: "Aplicação criada para clínica odontológica",
